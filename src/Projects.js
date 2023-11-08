@@ -18,7 +18,7 @@ const Projects = () => {
                     This website explains the Minimax algorithim and breaks down it's concepts so that it can be understood by anyone. It highlights the power of the algorithim by facing the player against an unbeatable robot.
 
                     <br /><br />
-                        Try it now: <a href={'https://spontaneous-moxie-5e57f9.netlify.app'} rel="noreferrer" target='_blank'>https://spontaneous-moxie-5e57f9.netlify.app</a>
+                    &emsp;&emsp;Try it now: <a href={'https://spontaneous-moxie-5e57f9.netlify.app'} rel="noreferrer" target='_blank'>https://spontaneous-moxie-5e57f9.netlify.app</a>
                     </p>
                     </ul>
                 </div>
@@ -33,7 +33,7 @@ const Projects = () => {
                     &emsp;&emsp;A mobile game developed in the Unity game engine and available on Android or PC via BlueStacks.<br /><br />&emsp;&emsp;In this challenging game, you'll find yourself in the shoes of a daring architect tasked with building a dream house while the truck is zooming down the highway. Your goal? To complete the house before the truck reaches its destination.
                         Each level presents unique challenges and obstacles that will put your problem-solving abilities to the test. 
                         <br /><br />
-                        Try it now: <a href={'https://www.amazon.com/Specter-Studios-Mobile-Homes/dp/B0C78Y8CFY'} rel="noreferrer" target='_blank'>https://www.amazon.com/Specter-Studios-Mobile-Homes/dp/B0C78Y8CFY</a>
+                        &emsp;&emsp;Try it now: <a href={'https://www.amazon.com/Specter-Studios-Mobile-Homes/dp/B0C78Y8CFY'} rel="noreferrer" target='_blank'>https://www.amazon.com/Specter-Studios-Mobile-Homes/dp/B0C78Y8CFY</a>
                     </p>
                     </ul>
                 </div>
