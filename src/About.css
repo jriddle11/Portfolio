@@ -1,0 +1,61 @@
+.about{
+    font-size: 22px;
+    margin-left: 26%;
+    align-items: center;
+}
+
+.aboutBlockText{
+    border: rgb(46, 46, 46) solid 1px;
+    border-radius: 8px;
+    padding: 50px 30px 50px 0px;
+    display: flex;
+    line-height: 1.5;
+    min-width: 850px;
+    width: 550px;
+}
+
+.purpleBorder{
+    border: 6px solid #6e1fa9;
+    margin-left: 20%;
+}
+
+.greenBorder{
+    border: 6px solid #00aa80;
+}
+
+.margin15{
+    margin-left: 15%;
+}
+
+.margin20{
+    margin-left: 18%;
+}
+
+.projectButton{
+    color:rgb(46, 46, 46);
+    background-color: white;
+    width: 300px;
+    height: 75px;
+    font-family: Ubuntu;
+    font-size: 40px;
+    border: #00aa80 solid;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.aboutToProject{
+    margin-left: -400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.block{
+    padding-top: 200px;
+}
+
+.blockTitle{
+    font-size: 50px;
+}

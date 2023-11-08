@@ -1,0 +1,46 @@
+.home h1{
+    margin-top: 250px;
+    margin-left: 30%;
+    font-size: 80px;
+  }
+  
+  .home .jobTitle{
+    font-size: 30px;
+    margin-left: 41%;
+  }
+  
+  .arrow{
+    height: 40px;
+    width: 20px;
+  }
+  
+  Button:hover .arrow{
+    content: url('Images/ArrowWhite.png');
+  }
+  
+  .aboutButton{
+    color:rgb(46, 46, 46);
+    background-color: white;
+    width: 300px;
+    height: 75px;
+    font-family: Ubuntu;
+    font-size: 40px;
+    border: #00aa80 solid;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .aboutButtonLink{
+    text-decoration: none;
+    display:inline-block;
+    margin-left: 40%;
+  }
+  
+  
+  button:hover{
+    background-color: rgb(46, 46, 46);
+    color:white;
+    cursor: pointer;
+  }
