@@ -4,7 +4,7 @@ html {
 }
 @media screen and (max-width: 800px) {
   html {
-      font-size: 7px;
+      font-size: 6px;
   }
 }
 
