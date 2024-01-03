@@ -1,9 +1,25 @@
-/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+html {
+  font-size: 12px;
+  min-height: 100%;
+}
+@media screen and (max-width: 800px) {
+  html {
+      font-size: 9px;
+  }
+}
+
 * {
   font-family: Ubuntu;
   margin:0;
+}
+
+.inline{
+  width: 100%;
+  position: relative;
+}
+
+.descriptionText{
+  font-size: 1.3rem;
 }
 
 html{
@@ -20,18 +36,41 @@ html{
   font-weight: bold;
 }
 
+.robotPic{
+  height: 19.3rem;
+  width: 30rem;
+  margin: 0;
+}
+
+.circlePic{
+  height: 20rem;
+  width: 20rem;
+  margin: 0;
+}
+
+.gamePic{
+  height: 15rem;
+  width: 30rem;
+  margin: 0;
+}
+
 .projects{
-  font-size: 30px;
+  font-size: 3rem;
   color: black;
-  padding-top: 10%;
-  margin-left: 10%;
   align-items: center;
 }
+
+.jobTitle{
+  font-size: 2rem;
+}
+
+.intro{
+  margin-left: -20rem;
+}
+
 .contact{
-  font-size: 30px;
+  font-size: 3rem;
   color: black;
-  padding-top: 10%;
-  margin-left: 10%;
   align-items: center;
 }
 
@@ -41,12 +80,6 @@ html{
   -khtml-user-select: none;
   -webkit-user-select: none;
   -o-user-select: none;
-}
-
-@media all and (max-width: 980px) {
-  .splash{
-      left: 980px;
-  }
 }
 
 @keyframes spin { 

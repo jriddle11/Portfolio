@@ -6,8 +6,7 @@ const NavBar = () => {
         <div className="navbar">
             <img src={gear} alt="Gear" className="gear noSelection" />
             <h1 class="titleNav noSelection">
-                <span className="JRlogo">JR</span>
-                <pre style={{fontFamily: 'Ubuntu', bottom: 0, marginTop: '-36px'}}> PORTFOLIO</pre>
+                <span className="JRlogo">JR &emsp;&emsp;PORTFOLIO</span>
             </h1>
             <div className="links">
                 <p>
