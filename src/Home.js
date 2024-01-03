@@ -13,8 +13,8 @@ const Home = () => {
             </div>
             <br/>
             <div className='center'>
-            <Link to="/projects" className='aboutButtonLink noSelection' onClick={() => {window.scroll(0, 0); }}>
-            <button className='aboutButton'>&emsp;Projects&emsp;&emsp;<img src={Arrow} className='arrow' alt="arrow" display='inline'/></button>
+            <Link to="/projects" className='noSelection' onClick={() => {window.scroll(0, 0); }}>
+            <button className='aboutButton'>&emsp;Projects&emsp;&emsp;<img src={Arrow} className='arrow' alt="arrow"/></button>
             </Link>
             </div>
             
