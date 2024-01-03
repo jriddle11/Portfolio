@@ -14,7 +14,7 @@ const Home = () => {
             <br/>
             <div className='center'>
             <Link to="/projects" className='aboutButtonLink noSelection' onClick={() => {window.scroll(0, 0); }}>
-            <button display='inline-block' className='aboutButton'>&emsp;Projects&emsp;&emsp;<img src={Arrow} className='arrow' alt="arrow" display='inline'/></button>
+            <button className='aboutButton'>&emsp;Projects&emsp;&emsp;<img src={Arrow} className='arrow' alt="arrow" display='inline'/></button>
             </Link>
             </div>
             
