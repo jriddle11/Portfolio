@@ -3,15 +3,20 @@ import Arrow from './Images/Arrow.png'
 import Mobile from './Images/mobileHomes.png'
 import Robot from './Images/robot.png'
 import Grocery from './Images/grocery.png'
+import Champion from './Images/Champion.jpg'
 import { Link } from 'react-router-dom';
+import './Home.css'
+import ParticleBG from "./ParticleBackground";
+
 const Projects = () => {
     return ( 
-        <div className="center inline">
+        <div className="projDiv">
+            <ParticleBG />
+            <div className='foreground'>
             <div className="block">
                 <span className="blockTitle">Cutman101</span><br/>
-                
                 <div className="aboutBlockText">
-                    <img className='purpleBorder robotPic' src={Robot} alt='Cutman101'/>
+                    <img className='purpleBorder gamePic' src={Champion} alt='Cutman101'/>
                     <p className='descriptionText'>
                     &emsp;&emsp;A website I developed in React, designed for PC.<br /><br />&emsp;&emsp;
                     I created this website for my father's cutman business, this site has embedded instructional videos on how to be a cutman as well as a gallery showing off his work.
@@ -54,7 +59,7 @@ const Projects = () => {
                 <span className="blockTitle">Mobile Homes</span><br/>
                 
                 <div className="aboutBlockText">
-                    <img className='purpleBorder gamePic' src={Mobile} alt='Mobile Game'/>
+                    <img className='greenBorder gamePic' src={Mobile} alt='Mobile Game'/>
                     <p className='descriptionText'>
                     &emsp;&emsp;A mobile game developed in the Unity game engine and available on Android.<br /><br />&emsp;&emsp;This game has the user attempting to build a house on a moving truck much like tetris. Users are required to place the correct pieces of the house without error to pass to the next level. There are 100, unique, fast paced levels that will put your mind and reflexes to the test. 
                         <br /><br />
@@ -62,10 +67,6 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div className='center'>
-            <Link to="/about" className='aboutButtonLink noSelection' onClick={() => {window.scroll(0, 0); }}>
-            <button display='inline-block' className='aboutButton'>&emsp;About&emsp;&emsp;&emsp;<img src={Arrow} className='arrow' alt="arrow" display='inline'/></button>
-            </Link>
             </div>
         </div>
      );

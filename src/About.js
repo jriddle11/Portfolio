@@ -4,12 +4,15 @@ import Cap from './Images/Cap.png'
 import Puzzle from './Images/Puzzle.png'
 import Josh from './Images/JoshPhoto.jpg'
 import { Link } from 'react-router-dom';
+import './Home.css'
+import ParticleBG from "./ParticleBackground";
+
 const About = () => {
     return ( 
-        <div className="center inline">
+        <div className="projDiv">
+            <ParticleBG />
             <div className="block">
                 <span className="blockTitle">Education</span><br/>
-                
                 <div className="aboutBlockText">
                 <img src={Cap} alt='Cap' className='circlePic'/>
                     <ul className='descriptionText alignLeft'>
@@ -52,11 +55,6 @@ In my current professional role, I serve as a Dangerous Goods Specialist for Fed
 
 As I actively seek opportunities aligned with my field of study, my goal is to secure a job that not only supports my ongoing university journey but also propels my career forward. I am eager to contribute my skills and passion to a dynamic work environment while continuing to pursue excellence in Computer Science.</p>
                 </div>
-            </div>
-            <div className='center'>
-            <Link to="/contact" className='aboutButtonLink noSelection' onClick={() => {window.scroll(0, 0); }}>
-            <button display='inline-block' className='aboutButton'>&emsp;Contact&emsp;&emsp;<img src={Arrow} className='arrow' alt="arrow" display='inline'/></button>
-            </Link>
             </div>
         </div>
      );

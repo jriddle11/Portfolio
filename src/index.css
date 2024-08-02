@@ -8,13 +8,13 @@ html {
 }
 
 .aboutButton{
-  color:rgb(46, 46, 46);
+  color:#2e2e2e;
   background-color: white;
   width: 25rem;
   height: 6rem;
   font-family: Ubuntu;
   font-size: 3rem;
-  border: #00aa80 solid;
+  border: #84dcff solid;
   margin-top: 0px;
   align-items: center;
   cursor: pointer;
@@ -45,12 +45,12 @@ html{
 }
 
 .greenText{
-  color: #00aa80;
+  color: #84dcff;
   font-weight: bold;
 }
 
 .purpleText{
-  color:#6e1fa9;
+  color:#84dcff;
   font-weight: bold;
 }
 

@@ -1,8 +1,12 @@
 import './About.css';
+import './Home.css';
+import ParticleBG from "./ParticleBackground";
+
 const Contact = () => {
     return ( 
-        <div className="about center">
-            <div className="block">
+        <div className="projDiv">
+            <ParticleBG />
+            <div className="block" style={{height: "60vh"}}>
                 <span className="blockTitle">Contact Info:</span><br/>
                 
                 <div className="aboutBlockText">

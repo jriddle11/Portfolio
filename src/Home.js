@@ -1,23 +1,29 @@
 import Arrow from './Images/Arrow.png'
 import { Link } from 'react-router-dom';
+import ParticleBackground from "./ParticleBackground";
 import './Home.css';
+
 const Home = () => {
+    const words = ["Hello,", "I'm Josh Riddle:", "Software Engineer"];
+
     return ( 
-        <div>
-            <div className="home center">
-        
-                <h1><span className='intro'>Hello,<br />
-                &emsp;I'm <span className='purpleText'>Josh Riddle </span></span><br />
-                </h1>
-                <span className='greenText jobTitle'>A Junior Developer </span>
+        <div className='homeDiv center'>
+            <div className='particles background'>
+                <ParticleBackground />
             </div>
-            <br/>
-            <div className='center'>
-            <Link to="/projects" className='noSelection' onClick={() => {window.scroll(0, 0); }}>
-            <button className='aboutButton'>&emsp;Projects&emsp;&emsp;<img src={Arrow} className='arrow' alt="arrow"/></button>
-            </Link>
+            <div className="home foreground">
+                <div className="fade-in-container">
+                    {words.map((word, index) => (
+                        <span
+                        key={index}
+                        className={`fade-in-word ${index === words.length - 1 ? 'last-word' : ''}`}
+                        style={{ animationDelay: `${index * 2.5}s` }}
+                        >
+                        {word}
+                        </span>
+                    ))}
+                </div>
             </div>
-            
         </div>
      );
 }

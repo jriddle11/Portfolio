@@ -13,18 +13,29 @@
 }
 
 .purpleBorder{
-    border: 6px solid #6e1fa9;
+    border: 6px solid #84dcff;
 }
 
 .greenBorder{
-    border: 6px solid #00aa80;
+    border: 6px solid #84dcff;
 }
 
 .block{
     padding-top: 10rem;
     padding-bottom: 5rem;
+    background-color: white;
+    width: 70vw;
 }
 
 .blockTitle{
     font-size: 5rem;
+}
+
+.projDiv{
+    display: flex;
+    flex-direction: column; /* Stack inner divs vertically */
+    align-items: center; /* Center inner divs horizontally */
+    text-align: center;
+    height: 100%; /* Full viewport height */
+    width: 100%; /* Full viewport width */
 }
