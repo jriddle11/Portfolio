@@ -15,11 +15,11 @@ const Projects = () => {
                 <span className="blockTitle">Cutman101</span><br/>
                 <div className="aboutBlockText">
                     <img className='purpleBorder gamePic' src={Champion} alt='Cutman101'/>
-                    <p className='descriptionText'>
+                    <p className='descriptionText noDec'>
                     &emsp;&emsp;A website I developed in React, designed for PC.<br /><br />&emsp;&emsp;
                     I created this website for my father's cutman business, this site has embedded instructional videos on how to be a cutman as well as a gallery showing off his work.
                     <br /><br />
-                    Check it out: <a href={'https://cutman101.com'} rel="noreferrer" target='_blank'>https://cutman101.com</a>
+                    Check it out: <a className='noDec' href={'https://cutman101.com'} rel="noreferrer" target='_blank'>https://cutman101.com</a>
                     </p>
                 </div>
             </div>

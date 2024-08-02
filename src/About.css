@@ -8,6 +8,14 @@
     margin: 0 auto;
 }
 
+.descriptionText{
+    font-size: 1.5rem;
+}
+
+.noDec{
+    text-decoration: none;
+}
+
 .alignLeft{
     text-align: left;
 }
@@ -23,7 +31,7 @@
 .block{
     padding-top: 10rem;
     padding-bottom: 5rem;
-    background-color: white;
+    background-color: #313131;
     width: 70vw;
 }
 
@@ -38,4 +46,5 @@
     text-align: center;
     height: 100%; /* Full viewport height */
     width: 100%; /* Full viewport width */
+    color: whitesmoke;
 }

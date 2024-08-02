@@ -1,7 +1,7 @@
 import './About.css';
 import Cap from './Images/Cap.png'
 import Puzzle from './Images/Puzzle.png'
-import Josh from './Images/JoshPhoto.jpg'
+import Josh from './Images/JoshPhoto.png'
 import './Home.css'
 import ParticleBG from "./ParticleBackground";
 
@@ -9,6 +9,20 @@ const About = () => {
     return ( 
         <div className="projDiv">
             <ParticleBG />
+            <div className="block">
+                <span className="blockTitle">About Me</span><br/>
+                <div className="aboutBlockText">
+                <img src={Josh} alt='Josh' className='circlePic'/>
+                    <p className='descriptionText'> &emsp;&emsp; I was born in Tampa Bay, Florida, but my family relocated to Kansas before I even took my first steps. Growing up in Leavenworth County, I assumed the role of the eldest brother to two younger brothers and a little sister. One of my fondest childhood memories with them revolves around receiving my first video game, Super Mario Bros 3, at the age of 8, igniting my passion for gaming and technology.
+
+                    <br/><br/>&emsp;&emsp; Upon graduating from high school, I entered the workforce, securing a position in a production warehouse to amass funds for my education. Through dedication and hard work, I climbed the ranks to become a Line Lead, eventually affording me the opportunity to enroll at Kansas State University in the fall of 2021. Now as a junior, I have diligently absorbed new knowledge and pursued hobbies, particularly in the field Computer Science. I even managed to release a small mobile game over the summer of 2023 after working on several projects in the Unity engine.
+
+In my current professional role, I serve as a Dangerous Goods Specialist for FedEx.
+<br/><br/>&emsp;&emsp; During my free hours, I am engrossed in developing games and mods for existing games, as my passion has not died out for them. Recently, I've diversified my expertise by delving into website development using React and the ASP.NET framework.
+
+As I actively seek opportunities aligned with my field of study, my goal is to secure a job that not only supports my ongoing university journey but also propels my career forward. I am eager to contribute my skills and passion to a dynamic work environment while continuing to pursue excellence in Computer Science.</p>
+                </div>
+            </div>
             <div className="block">
                 <span className="blockTitle">Education</span><br/>
                 <div className="aboutBlockText">
@@ -38,20 +52,6 @@ const About = () => {
                         <li>Experience inspecting <span className="purpleText">Dangerous Goods</span> and filing sensitive paperwork.</li>
                         <li>Excellent <span className="greenText">communication</span> and customer service skills.</li>
                     </ul>
-                </div>
-            </div>
-            <div className="block">
-                <span className="blockTitle">About Me</span><br/>
-                <div className="aboutBlockText">
-                <img src={Josh} alt='Josh' className='circlePic'/>
-                    <p className='descriptionText'> &emsp;&emsp; I was born in Tampa Bay, Florida, but my family relocated to Kansas before I even took my first steps. Growing up in Leavenworth County, I assumed the role of the eldest brother to two younger brothers and a little sister. One of my fondest childhood memories with them revolves around receiving my first video game, Super Mario Bros 3, at the age of 8, igniting my passion for gaming and technology.
-
-                    <br/><br/>&emsp;&emsp; Upon graduating from high school, I entered the workforce, securing a position in a production warehouse to amass funds for my education. Through dedication and hard work, I climbed the ranks to become a Line Lead, eventually affording me the opportunity to enroll at Kansas State University in the fall of 2021. Now as a junior, I have diligently absorbed new knowledge and pursued hobbies, particularly in the field Computer Science. I even managed to release a small mobile game over the summer of 2023 after working on several projects in the Unity engine.
-
-In my current professional role, I serve as a Dangerous Goods Specialist for FedEx.
-<br/><br/>&emsp;&emsp; During my free hours, I am engrossed in developing games and mods for existing games, as my passion has not died out for them. Recently, I've diversified my expertise by delving into website development using React and the ASP.NET framework.
-
-As I actively seek opportunities aligned with my field of study, my goal is to secure a job that not only supports my ongoing university journey but also propels my career forward. I am eager to contribute my skills and passion to a dynamic work environment while continuing to pursue excellence in Computer Science.</p>
                 </div>
             </div>
         </div>
