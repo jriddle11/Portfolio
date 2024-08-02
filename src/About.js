@@ -1,9 +1,7 @@
 import './About.css';
-import Arrow from './Images/Arrow.png'
 import Cap from './Images/Cap.png'
 import Puzzle from './Images/Puzzle.png'
 import Josh from './Images/JoshPhoto.jpg'
-import { Link } from 'react-router-dom';
 import './Home.css'
 import ParticleBG from "./ParticleBackground";
 

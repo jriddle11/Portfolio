@@ -1,5 +1,3 @@
-import Arrow from './Images/Arrow.png'
-import { Link } from 'react-router-dom';
 import ParticleBackground from "./ParticleBackground";
 import './Home.css';
 

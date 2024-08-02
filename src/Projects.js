@@ -1,10 +1,8 @@
 import './About.css';
-import Arrow from './Images/Arrow.png'
 import Mobile from './Images/mobileHomes.png'
 import Robot from './Images/robot.png'
 import Grocery from './Images/grocery.png'
 import Champion from './Images/Champion.jpg'
-import { Link } from 'react-router-dom';
 import './Home.css'
 import ParticleBG from "./ParticleBackground";
 
