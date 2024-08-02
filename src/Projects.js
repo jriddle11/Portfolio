@@ -8,6 +8,19 @@ const Projects = () => {
     return ( 
         <div className="center inline">
             <div className="block">
+                <span className="blockTitle">Cutman101</span><br/>
+                
+                <div className="aboutBlockText">
+                    <img className='purpleBorder robotPic' src={Robot} alt='Cutman101'/>
+                    <p className='descriptionText'>
+                    &emsp;&emsp;A website I developed in React, designed for PC.<br /><br />&emsp;&emsp;
+                    I created this website for my father's cutman business, this site has embedded instructional videos on how to be a cutman as well as a gallery showing off his work.
+                    <br /><br />
+                    Check it out: <a href={'https://cutman101.com'} rel="noreferrer" target='_blank'>https://cutman101.com</a>
+                    </p>
+                </div>
+            </div>
+            <div className="block">
                 <span className="blockTitle">Robotic-Tac-Toe</span><br/>
                 
                 <div className="aboutBlockText">
@@ -25,7 +38,7 @@ const Projects = () => {
                 <span className="blockTitle">Groceries O'Plenty</span><br/>
                 
                 <div className="aboutBlockText">
-                    <img className='purpleBorder robotPic' src={Grocery} alt='Robotictactoe'/>
+                    <img className='purpleBorder robotPic' src={Grocery} alt='Groceries O Plenty'/>
                     <p className='descriptionText'>
                     &emsp;&emsp;An application to aid users budget their groceries by tracking their receipts.<br /><br />&emsp;&emsp;
                     This App utilizes Ocular Character Recognition in order to save information provided by the user through receipt uploads. 
