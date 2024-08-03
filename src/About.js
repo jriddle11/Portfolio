@@ -48,7 +48,7 @@ As I actively seek opportunities aligned with my field of study, my goal is to s
                         <li>Understanding of 3D modeling software <span className="greenText">Blender</span>.</li>
                         <li>Experience working with, and <span className="purpleText">leading</span> a team to complete tasks.</li>
                         <li>Working knowledge of varied software:</li>
-                            <sapn className="greenText">Excel, OpenShot Video Editor, Microsoft Word, OBS Studio, Microsoft PowerPoint, Audacity</sapn>.
+                            <sapn className="greenText">Excel, OpenShot Video Editor, OBS Studio and Audacity</sapn>.
                         <li>Experience inspecting <span className="purpleText">Dangerous Goods</span> and filing sensitive paperwork.</li>
                         <li>Excellent <span className="greenText">communication</span> and customer service skills.</li>
                     </ul>
