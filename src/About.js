@@ -17,8 +17,8 @@ const About = () => {
 
                     <br/><br/>&emsp;&emsp; Upon graduating from high school, I entered the workforce, securing a position in a production warehouse to amass funds for my education. Through dedication and hard work, I climbed the ranks to become a Line Lead, eventually affording me the opportunity to enroll at Kansas State University in the fall of 2021. Now as a junior, I have diligently absorbed new knowledge and pursued hobbies, particularly in the field Computer Science. I even managed to release a small mobile game over the summer of 2023 after working on several projects in the Unity engine.
 
-In my current professional role, I serve as a Dangerous Goods Specialist for FedEx.
-<br/><br/>&emsp;&emsp; During my free hours, I am engrossed in developing games and mods for existing games, as my passion has not died out for them. Recently, I've diversified my expertise by delving into website development using React and the ASP.NET framework.
+Recently over the summer of of 2024 I took on the role of a software engineer intern for WellSky. There I worked diligently with a team of great developers to create Web APIs in Asp.Net Core and learned a lot about Agile methodologies.
+<br/><br/>&emsp;&emsp; During my free hours, I am engrossed in developing games and mods for existing games, as my passion has not died out for them.
 
 As I actively seek opportunities aligned with my field of study, my goal is to secure a job that not only supports my ongoing university journey but also propels my career forward. I am eager to contribute my skills and passion to a dynamic work environment while continuing to pursue excellence in Computer Science.</p>
                 </div>

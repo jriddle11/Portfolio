@@ -2,7 +2,7 @@ import ParticleBackground from "./ParticleBackground";
 import './Home.css';
 
 const Home = () => {
-    const words = ["Hello,", "I'm Josh Riddle:", "Software Engineer"];
+    const words = ["Hello,", "I'm Josh Riddle:", "A Software Engineer"];
 
     return ( 
         <div className='homeDiv center'>
